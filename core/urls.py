@@ -23,6 +23,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Todas nuestras rutas de la API empezarán con api/
     path('api/', include('properties.urls')),
+    path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/register/', RegisterView.as_view(), name='auth_register'),
+    path('api/profile/', UserProfileView.as_view(), name='user_profile'),
 ]
 
 # Esto permite que Django "sirva" las fotos de las casas mientras desarrollamos
