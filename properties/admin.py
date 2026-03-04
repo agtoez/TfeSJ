@@ -1,4 +1,4 @@
-from django.admin import admin
+from django.contrib import admin
 from .models import Property, PropertyImage
 
 class PropertyImageInline(admin.TabularInline):
