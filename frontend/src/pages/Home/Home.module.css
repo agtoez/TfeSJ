@@ -1,0 +1,22 @@
+.container {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.placeholderBox {
+  background-color: #f8f9fa;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
