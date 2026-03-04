@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'corsheaders',
 
     # Tus aplicaciones: 
-    'users'
+    'users',
+    'properties',
 
 ]
 
